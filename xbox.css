@@ -1,0 +1,867 @@
+
+.headBar {
+    height: 54px;
+    width: 100%;
+    background-color: #ffffff;
+   
+}
+
+body {  
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.navLogo {
+    float: left;
+}
+
+.microsoftLogo {
+    height: 29px;
+    width: 125px;
+    padding-left: 79px;
+    padding-top: 12px;
+}
+
+.xboxLogo {
+    height: 30px;
+    width: 110px;
+    padding-left: 6px;
+    padding-right: 20px;
+}
+
+.navContents {
+    float: left;
+    padding-top: 15px;
+}
+
+.navContents a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    padding-right: 20px;
+}
+
+.navContents a:hover {  
+    text-decoration: underline 2px solid black;
+    text-underline-offset: 3px;
+}
+
+.navContents2 {
+    float: left;
+    padding-top: 15px;
+    padding-left: 215px;
+}
+
+.navContents2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.navContents2 a:hover {  
+    text-decoration: underline 2px solid black;
+    text-underline-offset: 3px;
+}
+
+
+.search {
+    height: 23px;
+    width: 33px;
+    padding-top: 18px;
+}
+
+.navContents3 {
+    float: left;
+    padding-top: 15px;
+   
+}
+
+.navContents3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.navContents3 a:hover {  
+    text-decoration: underline 2px solid black;
+    text-underline-offset: 3px;
+}
+
+.cart {
+    height: 30px;
+    width: 37px;
+    float: left;
+    padding-top: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+   
+}
+
+.signText {
+    padding-top: 14px;
+    float: left;
+}
+
+.sign {
+    height: 37px;
+    width: 51px;
+    float: left;
+    padding-top: 7px;
+}
+
+.slide {
+    width: 100%;
+    height: 620px;
+    background-color: aqua;
+    background-image: url(images/topslide1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 630px;
+    background-position: 0px 0px;
+}
+
+.newButton {
+    padding-top: 146px;
+    padding-left: 910px;
+}
+
+.newUpdate {
+    font-size: 13px;
+    color: black;
+    border: none;
+    background-color: #ffd800;
+    cursor: pointer;
+}
+
+.halo {
+    font-size: 46px;
+    font-weight: 700;
+    padding-left: 912px;
+    padding-top: 9px;
+}
+
+.celibrate {
+    font-size: 34px;
+    font-weight: 400;
+    color: black;
+    padding-left: 912px;
+    padding-top: 10px;
+}
+
+.getButton {
+    padding-left: 912px;
+    padding-top: 35px;
+}
+
+.get {
+    width: 153px;
+    height: 31px;
+    background-color: #9bf00b;
+    font-size: 20px;
+    font-weight: 800;
+    color: #054b16;
+    border: none;
+}
+
+.getButton a{
+    color: #054b16;
+}
+
+.getButton a:hover {
+    text-decoration: underline 1px solid black;
+    text-underline-offset: 2px;
+}
+
+.iconTable {
+    padding-left: 233px;
+    padding-top: 26px;
+}
+
+.icons {
+    width: 100%;
+    height: 80px;
+}
+
+#icon {
+    height: 52px;
+    width: 56px;
+    padding-left: 100px;
+}
+
+.label {
+    padding-bottom: 30px;
+    padding-left: 300px;
+}
+
+.label a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #107c10;
+}
+
+.label a:hover {
+    text-decoration: underline 2px solid #107c10;
+    text-underline-offset: 3px;
+}
+
+.sonic {
+    float: left;
+    height: 850px;
+    width: 748px;
+    margin-left: 9px;
+    background-color: aqua;
+    background-image: url(images/sonic.jpg);
+    background-repeat: no-repeat;
+    background-size: 748px 850px;
+    background-position: 0px 0px;
+}
+
+.frontiers {
+    font-size: 46px;
+    font-weight: 700;
+    padding-top: 600px;
+    padding-left: 50px;
+}
+
+.experience {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.getIt1 {
+    font-size: 15px;
+    font-weight: 800;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.getIt1 a {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.getIt1 a:hover {
+    text-decoration: underline 2px solid black;
+    text-underline-offset: 2px;
+}
+
+.gamePass1 {
+    float: left;
+    height: 425px;
+    width: 373px;
+    margin-left: 4px;
+    background-color: #107c10;   
+}
+
+.gamePass2 {
+    float:left;
+    height: 425px;
+    width: 376px;
+    margin-right: 9px;
+    background-image: url(images/gamePass1.jpg);
+    background-repeat: no-repeat;
+    background-size: 376px 425px;
+    
+}
+
+.discover {
+    padding-top: 60px;
+    padding-left: 50px;
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.hundred{
+    padding-left: 50px;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.join1 {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.join1 a {
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff; 
+}
+
+.join1 a:hover {
+    text-decoration: underline 2px solid #9bf00b;
+    text-underline-offset: 2px;
+    color: #9bf00b;
+}
+
+.console {
+    float: left;
+    height: 850px;
+    width: 750px;
+    margin-top: 4px;
+    margin-left: 4px;
+    background-color: aqua;
+    background-image: url(images/controller.jpg);
+    background-repeat: no-repeat;
+    background-size: 750px 850px;
+    background-position: 0px 0px;
+}
+
+.surreal{
+    font-size: 46px;
+    font-weight: 700;
+    padding-top: 600px;
+    padding-left: 50px;
+    color: #fff;
+}
+
+.elevate {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #fff;
+}
+
+.learn1 {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.learn1 a {
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff; 
+}
+
+.learn1 a:hover {
+    text-decoration: underline 2px solid #9bf00b;
+    text-underline-offset: 2px;
+    color: #9bf00b;
+}
+
+.eaPlay1 {
+    float:left;
+    height: 425px;
+    width: 376px;
+    margin-top: 102px;
+    background-image: url(images/eaPlay.jpg);
+    background-repeat: no-repeat;
+    background-size: 376px 425px;
+}
+
+.eaPlay2 {
+    float: left;
+    height: 425px;
+    width: 372px;
+    margin-top: 102px;
+    background-color: #107c10;
+}
+
+.eaButton {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#eaButton {
+    border: none;
+    width: 72px;
+    background-color: #fffd00;
+}
+.playUp {
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.getUp {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 17px;
+}
+
+.learn2 {
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.learn2 a {
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff; 
+}
+
+.learn2 a:hover {
+    text-decoration: underline 2px solid #9bf00b;
+    text-underline-offset: 2px;
+    color: #9bf00b;
+}
+
+.persona1 {
+    float: left;
+    height: 425px;
+    width: 374px;
+    margin-top: 4px;
+    margin-left: 9px;
+    background-color: #107c10;
+}
+
+.persona2 {
+    float:left;
+    height: 425px;
+    width: 374px;
+    margin-top: 4px;
+    background-image: url(images/eaPlay.jpg);
+    background-repeat: no-repeat;
+    background-size: 376px 425px;
+}
+
+.royal {
+    font-size: 34px;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-top: 110px;
+    color: #fff;
+}
+
+.playNow {
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-top: 15px;
+    color: #fff;
+}
+
+
+.getIt2 {
+    font-size: 15px;
+    font-weight: 800;
+    padding-left: 40px;
+    padding-top: 25px;
+    color: #fff;
+}
+
+.getIt2 a {
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.getIt2 a:hover {
+    text-decoration: underline 2px solid #9bf00b;
+    text-underline-offset: 2px;
+    color: #9bf00b;
+}
+
+.plague1 {
+    float: left;
+    height: 425px;
+    width: 374px;
+    margin-top: 4px;
+    margin-left: 4px;
+    background-color: #107c10;
+}
+
+.plague2 {
+    float:left;
+    height: 425px;
+    width: 376px;
+    margin-top: 4px;
+    background-image: url(images/gameFace.jpg);
+    background-repeat: no-repeat;
+    background-size: 376px 425px;
+}
+
+.tale {
+    font-size: 34px;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-top: 110px;
+    color: #fff;
+}
+
+#gamePass {
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-top: 15px;
+    color: #fff;
+}
+
+.pentiment1 {
+    float: left;
+    height: 425px;
+    width: 374px;
+    margin-top: 4px;
+    margin-left: 9px;
+    background-color: #107c10;
+}
+
+.pentiment2 {
+    float:left;
+    height: 425px;
+    width: 374px;
+    margin-top: 4px;
+    background-image: url(images/pendiment.jpg  );
+    background-repeat: no-repeat;
+    background-size: 376px 425px;
+}
+
+.pen {
+    font-size: 34px;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-top: 110px;
+    color: #fff;
+}
+
+.narrative {
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-top: 15px;
+    color: #fff; 
+}
+
+.preOrder1 {
+    font-size: 15px;
+    font-weight: 800;
+    padding-left: 40px;
+    padding-top: 25px;
+    color: #fff; 
+}
+
+.preOrder1 a{
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.preOrder1 a:hover {
+    text-decoration: underline 2px solid #9bf00b;
+    text-underline-offset: 2px;
+    color: #9bf00b;
+}
+
+.atomic1 {
+    float: left;
+    height: 425px;
+    width: 374px;
+    margin-top: 4px;
+    margin-left: 4px;
+    background-color: #107c10;
+}
+
+.heart {
+    font-size: 34px;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-top: 110px;
+    color: #fff;
+}
+
+#heart {
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-top: 15px;
+    color: #fff;
+}
+
+.preOrder2 {
+    font-size: 15px;
+    font-weight: 800;
+    padding-left: 40px;
+    padding-top: 25px;
+    color: #fff; 
+}
+
+.preOrder2 a{
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.preOrder2 a:hover {
+    text-decoration: underline 2px solid #9bf00b;
+    text-underline-offset: 2px;
+    color: #9bf00b;
+}
+
+.atomic2{
+    float:left;
+    height: 425px;
+    width: 376px;
+    margin-top: 4px;
+    background-image: url(images/atomic.jpg);
+    background-repeat: no-repeat;
+    background-size: 376px 425px;
+}
+
+
+.fifa1 {
+    float: left;
+    height: 425px;
+    width: 374px;
+    margin-top: 4px;
+    margin-left: 9px;
+    background-color: #ffffff;
+}
+
+.fifa2 {
+    float:left;
+    height: 425px;
+    width: 374px;
+    margin-top: 4px;
+    background-image: url(images/fifa.jpg  );
+    background-repeat: no-repeat;
+    background-size: 376px 425px;
+}
+
+.fifa23 {
+    font-size: 34px;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-top: 110px;
+    color: black;
+}
+
+.tournament {
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-top: 15px;
+    color: black; 
+}
+
+.getIt3 {
+    font-size: 15px;
+    font-weight: 800;
+    padding-left: 40px;
+    padding-top: 25px;
+    color: black;
+}
+
+.getIt3 a {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.getIt3 a:hover {
+    text-decoration: underline 2px solid black;
+    text-underline-offset: 2px;
+    color: black;
+}
+
+.knights1 {
+    float: left;
+    height: 425px;
+    width: 372px;
+    margin-top: 4px;
+    margin-left: 9px;
+    background-color: #ffffff;
+}
+
+.knights2 {
+    float:left;
+    height: 425px;
+    width: 374px;
+    margin-top: 4px;
+    background-image: url(images/knights.jpg);
+    background-repeat: no-repeat;
+    background-size: 376px 425px;
+}
+
+.knights {
+    font-size: 34px;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-top: 110px;
+    color: black;
+}
+
+.protectors {
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-top: 15px;
+    color: black; 
+}
+
+.getIt4 {
+    font-size: 15px;
+    font-weight: 800;
+    padding-left: 40px;
+    padding-top: 25px;
+    color: black;
+}
+
+.getIt4 a {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.getIt4 a:hover {
+    text-decoration: underline 2px solid black;
+    text-underline-offset: 2px;
+    color: black;
+}
+
+
+.lego {
+    float: left;
+    height: 850px;
+    width: 748px;
+    margin-top: 4px;
+    margin-left: 9px;
+    background-color: aqua;
+    background-image: url(images/lego.jpg);
+    background-repeat: no-repeat;
+    background-size: 750px 850px;
+    background-position: 0px 0px;
+}
+
+.lego1 {
+    font-size: 46px;
+    font-weight: 700;
+    padding-top: 600px;
+    padding-left: 50px;
+    color: #fff;
+}
+
+.lego2 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #fff;
+}
+
+.getIt5 {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.getIt5 a {
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff; 
+}
+
+.getIt5 a:hover {
+    text-decoration: underline 2px solid #9bf00b;
+    text-underline-offset: 2px;
+    color: #9bf00b;
+}
+
+.call {
+    float: left;
+    height: 850px;
+    width: 750px;
+    margin-top: 4px;
+    margin-left: 4px;
+    background-color: aqua;
+    background-image: url(images/callOfDuty.jpg);
+    background-repeat: no-repeat;
+    background-size: 750px 850px;
+    background-position: 0px 0px;
+}
+
+.call1 {
+    font-size: 46px;
+    font-weight: 700;
+    padding-top: 600px;
+    padding-left: 50px;
+    color: #fff;
+}
+
+.call2 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #fff;
+}
+
+.getIt6 {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.getIt6 a {
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff; 
+}
+
+.getIt6 a:hover {
+    text-decoration: underline 2px solid #9bf00b;
+    text-underline-offset: 2px;
+    color: #9bf00b;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #f2f2f2;
+   
+}
+
+.footer a {
+    font-size: 13px;
+    color: #616161;
+}
+
+.planet {
+    float: left;
+    width: 26px;
+    height: 22px;
+    padding-top: 11px;
+}
